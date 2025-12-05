@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="assets/sr.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio — SRIRAM E</title>
+    <meta name="description" content="Portfolio showcasing projects, skills, certifications and experience." />
+    <meta name="theme-color" content="#0b74ff" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+
+    
+</head>
+<body class="light-mode">
+    <header class="site-header">
+        <div class="container header-inner">
+        <a class="brand" href="#home"><img src="assets/sr.png" alt="SRIRAM E Logo" /></a>
+        
+        <div class="nav-container">
+          <nav class="nav" id="siteNav" role="navigation" aria-label="Main navigation">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#certifications">Certifications</a></li>
+              <li><a href="#experiences">Experiences</a></li>
+              <li><a href="#contact">Contact   </a></li>
+            </ul>
+          </nav>
+
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark/light theme">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <circle cx="12" cy="12" r="5"/>
+              <line x1="12" y1="1" x2="12" y2="3"/>
+              <line x1="12" y1="21" x2="12" y2="23"/>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+              <line x1="1" y1="12" x2="3" y2="12"/>
+              <line x1="21" y1="12" x2="23" y2="12"/>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+          </button>
+          <button class="nav-toggle" aria-label="Open navigation" id="navToggle">
+            <span class="hamburger">☰</span>
+          </button>
+        </div>
+        </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-card">
+            <img class="avatar" src="assets/profile.png" alt="Profile Picture" />
+
+          </div>
+          <div class="hero-text">
+            <h1>SRIRAM E</h1>
+            <p class="lead">Developer | Designer | Problem Solver</p>
+            <p style="text-align: justify;">
+I’m a passionate Full-Stack Web Developer and Tech Enthusiast currently pursuing my B.Tech in Information Technology at K.S.R. College of Engineering. I love building meaningful digital experiences — from interactive web applications to real-time AI projects.
+
+With hands-on experience in Web Development, Data Analytics, UI/UX Design, and AI, I constantly work on improving my technical skills while contributing to projects that solve real problems.</p>
+            <div class="cta-row">
+              <a class="btn primary" href="#contact">Hire Me</a>
+              <a class="btn outline" href="#projects">See Projects</a>
+            </div>
+            <div class="contact-icons">
+              <a href="mailto:ceitsriram27@gmail.com" aria-label="Email" title="Email" class="icon-link">
+                <img src="assets/email-logo.svg" alt="Email" />
+              </a>
+              <a href="https://www.linkedin.com/in/sri-ram-025997290/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn" class="icon-link">
+                <img src="assets/linkedin-logo.svg" alt="LinkedIn" />
+              </a>
+              <a href="https://github.com/Sriram-techub" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub" class="icon-link">
+                <img src="assets/github-logo.svg" alt="GitHub" />
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p style="text-align: justify;">I’m a dedicated  Web Developer and undergraduate IT student with experience in building dynamic web applications with descrptive analytical technique, data-driven solutions, and modern UI/UX designs.
+             I work with PHP/MySQL, JavaScript, and React-based front-end tools, and I enjoy solving real-world problems through clean code and thoughtful design.
+              Currently pursuing my B.Tech in Information Technology at K.S.R. College of Engineering, I focus on full-stack development, data analytics, and creating intuitive digital experiences that blend functionality with good design.</p>
+        </div>
+      </section>
+
+      <section id="skills" class="section bg-light">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="grid skills-grid">
+            <div class="card">
+              <h3>Frontend</h3>
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="card">
+              <h3>Programming</h3>
+              <p>C, C++, Java, Python, PHP</p>
+            </div>
+            <div class="card">
+              <h3>Data & Tools</h3>
+              <p>Power Bi, figma</p>
+            </div>
+            <div class="card">
+              <h3>Design & Testing</h3>
+              <p>UI/UX fundamentals, responsive design, testing basics</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="grid skills-grid project-grid">
+            
+            <article class="card project-card">
+              <div class="project-media"><img src="assets/gbsystem.png" alt="GB System preview"/></div>
+              <div class="project-body">
+                <h3>GB System — Web Application</h3>
+                <p>PHP/MySQL web application for online management. Features user authentication, admin controls and database operations.</p>
+                <p><a href="https://gbsystem2327.free.nf" target="_blank" rel="noopener noreferrer">Live demo</a></p>
+              </div>
+            </article>
+            <article class="card project-card">
+              <div class="project-media"><img src="assets/age and gender.png" alt="Age & Gender Detection preview"/></div>
+              <div class="project-body">
+                <h3>Age & Gender Detection (AI)</h3>
+                <p>Python & OpenCV project using deep learning models to detect age range and gender from live camera feed.</p>
+                <p><a href="http://github.com/Sriram-techub/age-and-gender-detector-project" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section">
+        <div class="container">
+          <h2>Certifications & Courses</h2>
+          <div class="cert-grid">
+            <article class="cert">
+              <img src="assets/IEANG.png" alt="IEANG certificate" class="cert-thumb" data-caption="Certified Member - IEANG" />
+              <div class="cert-body">
+                <h3>Certified member — IEANG</h3>
+                <p class="muted">2024</p>
+              </div>
+            </article>
+            <article class="cert">
+              <img src="assets/nptelio.png" alt="NPTEL IoT certificate" class="cert-thumb" data-caption="NPTEL - Introduction to IoT" />
+              <div class="cert-body">
+                <h3>NPTEL — Introduction to IoT</h3>
+                <p class="muted">2023</p>
+              </div>
+            </article>
+            <article class="cert">
+              <img src="assets/uiUX by terv.png" alt="UI/UX Design certificate" class="cert-thumb" data-caption="UI/UX Design - TERV" />
+              <div class="cert-body">
+                <h3>UI/UX Design — TERV (Value Added Course)</h3>
+                <p class="muted">Dec 2023 — Jan 2024</p>
+              </div>
+            </article>
+            <article class="cert">
+              <img src="assets/learnathon2024.png" alt="ICT Academy Learnathon" class="cert-thumb" data-caption="ICT Academy - Learnathon Courses" />
+              <div class="cert-body">
+                <h3>ICT Academy — Learnathon Courses</h3>
+                <p class="muted">Aug — Oct 2024</p>
+              </div>
+            </article>
+            <article class="cert">
+              <img src="assets/impairathon.png" alt="Impairathon participation" class="cert-thumb" data-caption="National Level Impairathon - Participation" />
+              <div class="cert-body">
+                <h3>National Level Impairathon — Participation</h3>
+                <p class="muted">2024</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experiences" class="section bg-light">
+        <div class="container">
+          <h2>Experiences</h2>
+          <div class="timeline-grid">
+            <article class="timeline-item">
+              <img src="assets/theeran360ai.png" alt="Thiran360AI internship" class="timeline-thumb" data-caption="Data Science Intern at Thiran360AI" />
+              <div class="cert-body">
+                <h3>Data Science Intern — Thiran360AI</h3>
+                <p class="muted">June 2024 (Bangalore & Erode)</p>
+                <p>Worked on data-driven projects, applied data science methodologies to real datasets.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <img src="assets/cubaisolutions.png" alt="Cube AI internship" class="timeline-thumb" data-caption="Web Dev & Data Analytics Intern at Cube AI Solutions" />
+              <div class="cert-body">
+                <h3>Web Dev & Data Analytics Intern — Cube AI Solutions</h3>
+                <p class="muted">July 2024 (Thokkavadi, Tamil Nadu)</p>
+                <p>Contributed to front-end development and data analytics tasks supporting AI-driven solutions.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <img src="assets/uiUX by terv.png" alt="UI/UX course" class="timeline-thumb" data-caption="UI/UX Design Value Added Course" />
+              <div class="cert-body">
+                <h3>UI/UX Design (Value Added Course)</h3>
+                <p class="muted">Dec 2023 — Jan 2024</p>
+                <p>Learned wireframing, prototyping, and user research methods.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>I enjoy collaborating on impactful projects and learning from real-world challenges.<br>
+Check out my latest work on GitHub or connect with me on LinkedIn!</p>
+          <div class="contact-methods">
+            <a href="mailto:ceitsriram27@gmail.com" class="contact-method">
+              <span class="contact-icon">
+                <img src="assets/email-logo.svg" alt="Email" />
+              </span>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-text">ceitsriram27@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/sri-ram-025997290/" target="_blank" rel="noopener noreferrer" class="contact-method">
+              <span class="contact-icon">
+                <img src="assets/linkedin-logo.svg" alt="LinkedIn" />
+              </span>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-text">sri-ram-025997290</span>
+              </div>
+            </a>
+            <a href="https://github.com/Sriram-techub" target="_blank" rel="noopener noreferrer" class="contact-method">
+              <span class="contact-icon">
+                <img src="assets/github-logo.svg" alt="GitHub" />
+              </span>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-text">Sriram-techub</span>
+              </div>
+            </a>
+          </div>
+          <h3 style="margin-top:2rem;margin-bottom:1rem;">Or send me a message</h3>
+          <form id="contactForm" class="contact-form" method="POST" netlify netlify-honeypot="bot-field">
+            <div style="display: none;">
+              <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </div>
+            <label for="contactName">
+              <span>Name</span>
+              <input type="text" name="name" id="contactName" required />
+            </label>
+            <label for="contactEmail">
+              <span>Email</span>
+              <input type="email" name="email" id="contactEmail" required />
+            </label>
+            <label for="contactMessage">
+              <span>Message</span>
+              <textarea name="message" id="contactMessage" rows="5" required></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send</button>
+              <button type="button" class="btn outline" id="clearForm">Clear</button>
+            </div>
+            <p id="formStatus" class="muted" style="margin-top: 1rem;"></p>
+          </form>
+          <p class="muted">Download resume: <a href="assets/sriram.docx" download>Resume (DOCX)</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> SRIRAM E — Built with care.</p>
+      </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="lightbox-overlay" id="lightboxOverlay" tabindex="-1"></div>
+      <div class="lightbox-content" role="document" aria-labelledby="lightboxCaption">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close (Esc)">✕</button>
+        <img id="lightboxImage" src="" alt="" />
+        <p id="lightboxCaption" class="muted"></p>
+      </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const body = document.body;
+            const themeToggle = document.getElementById('themeToggle');
+            const navToggle = document.getElementById('navToggle');
+            const siteNav = document.getElementById('siteNav');
+            const contactForm = document.getElementById('contactForm');
+            const clearFormButton = document.getElementById('clearForm');
+            const formStatus = document.getElementById('formStatus');
+
+            // --- 1. Set Current Year in Footer ---
+            document.getElementById('year').textContent = new Date().getFullYear();
+
+            // --- 2. Dark/Light Theme Toggle ---
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            body.classList.add(`${currentTheme}-mode`);
+            const sunIcon = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5" fill="currentColor"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>`;
+            const moonIcon = `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
+            themeToggle.innerHTML = currentTheme === 'dark' ? sunIcon : moonIcon;
+
+            themeToggle.addEventListener('click', () => {
+                const isDarkMode = body.classList.contains('dark-mode');
+                if (isDarkMode) {
+                    body.classList.replace('dark-mode', 'light-mode');
+                    localStorage.setItem('theme', 'light');
+                    themeToggle.innerHTML = moonIcon;
+                } else {
+                    body.classList.replace('light-mode', 'dark-mode');
+                    localStorage.setItem('theme', 'dark');
+                    themeToggle.innerHTML = sunIcon;
+                }
+            });
+
+            // --- 3. Mobile Navigation Toggle ---
+            navToggle.addEventListener('click', () => {
+                const isNavOpen = siteNav.classList.toggle('open');
+                navToggle.setAttribute('aria-expanded', isNavOpen);
+                navToggle.querySelector('.hamburger').textContent = isNavOpen ? '✕' : '☰';
+            });
+
+            // Close navigation when a link is clicked (for mobile)
+            siteNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (window.innerWidth <= 900) {
+                        siteNav.classList.remove('open');
+                        navToggle.setAttribute('aria-expanded', 'false');
+                        navToggle.querySelector('.hamburger').textContent = '☰';
+                    }
+                });
+            });
+
+            // --- 4. Contact Form Handling ---
+            clearFormButton.addEventListener('click', () => {
+                contactForm.reset();
+                formStatus.textContent = '';
+            });
+
+            contactForm.addEventListener('submit', (e) => {
+                // Let Netlify handle the form submission
+                formStatus.style.color = 'var(--primary-color)';
+                formStatus.textContent = 'Sending message...';
+            });
+
+            // --- 5. Lightbox functionality for images ---
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImage = document.getElementById('lightboxImage');
+            const lightboxCaption = document.getElementById('lightboxCaption');
+            const lightboxClose = document.getElementById('lightboxClose');
+
+            const lightboxTriggers = document.querySelectorAll('.cert-thumb, .timeline-thumb');
+
+            lightboxTriggers.forEach(img => {
+                img.addEventListener('click', () => {
+                    const src = img.getAttribute('src');
+                    const caption = img.getAttribute('data-caption') || img.getAttribute('alt');
+
+                    lightboxImage.setAttribute('src', src);
+                    lightboxImage.setAttribute('alt', caption);
+                    lightboxCaption.textContent = caption;
+
+                    lightbox.classList.add('open');
+                    lightbox.setAttribute('aria-hidden', 'false');
+                });
+            });
+
+            const closeLightbox = () => {
+                lightbox.classList.remove('open');
+                lightbox.setAttribute('aria-hidden', 'true');
+                // Clear the content to release memory/resources
+                lightboxImage.setAttribute('src', '');
+                lightboxCaption.textContent = '';
+            };
+
+            lightboxClose.addEventListener('click', closeLightbox);
+
+            // Close on outside click
+            lightbox.addEventListener('click', (e) => {
+                if (e.target === lightbox) {
+                    closeLightbox();
+                }
+            });
+
+            // Close on ESC key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && lightbox.classList.contains('open')) {
+                    closeLightbox();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
